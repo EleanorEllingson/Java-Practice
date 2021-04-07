@@ -12,5 +12,26 @@ public class Main {
         System.out.println("Busted Min Value = " + (myMinIntValue - 1));
 
         int myMaxIntTest = 2147483647;
+
+        byte myMinByteValue = Byte.MIN_VALUE;
+        byte myMaxByteValue = Byte.MAX_VALUE;
+        System.out.println(myMaxByteValue);
+        System.out.println(myMinByteValue);
+
+        short myMinShortValue = Short.MIN_VALUE;
+        short myMaxShortValue = Short.MAX_VALUE;
+        System.out.println(myMaxShortValue);
+        System.out.println(myMinShortValue);
+
+        long myLongValue = 100L;
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+        System.out.println(myMaxLongValue);
+        System.out.println(myMinLongValue);
+
+        long bigLongLiteralValue = 2147483647234L;
+        System.out.println(bigLongLiteralValue);
+
+        short bigShortLiteralValue = 32767;
     }
 }
