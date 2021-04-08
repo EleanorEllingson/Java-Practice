@@ -10,6 +10,6 @@ public class Main {
         long longTotal = 50000 + 10L *(byteValue + shortValue + intValue);
         System.out.println(longTotal);
 
-        short shortTotao = (short) (1000 + 10 * (byteValue + shortValue + intValue));
+        short shortTotal = (short) (1000 + 10 * (byteValue + shortValue + intValue));
     }
 }
