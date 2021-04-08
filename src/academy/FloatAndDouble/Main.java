@@ -1,7 +1,7 @@
 package academy.FloatAndDouble;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         float myMinFloatValue = Float.MIN_VALUE;
         float myMaxFloatValue = Float.MAX_VALUE;
@@ -13,8 +13,16 @@ public class Main {
         System.out.println("Double minimum value = " + myMinDoubleValue);
         System.out.println("Double Maximum value = " + myMaxDoubleValue);
 
-        int myIntValue = 5;
-        float myFloatValue = (float) 5.25;
-        double myDoubleValue = 5.25d;
+        int myIntValue = 5 / 3;
+        float myFloatValue = 5f / 3f;
+        double myDoubleValue = 5d / 3d;
+        System.out.println("MyIntValue = " + myIntValue);
+        System.out.println("MyFloatValue = " + myFloatValue);
+        System.out.println("MyDoubleValue = " + myDoubleValue);
+
+        double pounds = 200d;
+        double kilograms = .45359237d;
+        double poundsToKilograms = pounds * kilograms;
+        System.out.println("Converted kilograms = " + poundsToKilograms);
     }
 }
