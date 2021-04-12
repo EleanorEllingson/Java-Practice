@@ -18,5 +18,14 @@ public class Strings {
         double doubleNumber = 120.47d;
         lastString = lastString + doubleNumber;
         System.out.println("LastString is equal to " + lastString);
+
+        int[] numbers = new int[]{1,2,3,4};
+        int result = 0;
+        for (int number : numbers){
+            result *= number;
+        }
+        System.out.println();
     }
+
+
 }
