@@ -1,5 +1,7 @@
 package academy.operators;
 
+import jdk.swing.interop.SwingInterOpUtils;
+
 public class Main {
 
     public static void  main(String[] args){
@@ -35,6 +37,10 @@ public class Main {
         result /= 3;
         System.out.println("30 / 3 + " + result);
 
-
+        boolean isAlien = false;
+        if(isAlien == false) {
+            System.out.println("It is not an alien!");
+            System.out.println("And I am scared of aliens");
+        }
     }
 }
