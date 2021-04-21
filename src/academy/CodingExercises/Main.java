@@ -7,5 +7,8 @@ public class Main {
 
         SpeedConverter.printConversion(10.5);
 
+        SpeedConverter.milesPerGallon(25, 1900, 2.5);
+
+
     }
 }

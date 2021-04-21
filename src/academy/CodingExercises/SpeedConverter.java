@@ -19,4 +19,9 @@ public class SpeedConverter {
             System.out.println(kilometersPerHour + "km/h = " + milesPerhour + "mi/h");
         }
     }
+
+    public static void milesPerGallon(double mpg, double totalMiles, double costOfGas){
+        double costPerTrip = (totalMiles / mpg) * costOfGas;
+        System.out.println("Cost for this trip is $" + costPerTrip);
+    }
 }
