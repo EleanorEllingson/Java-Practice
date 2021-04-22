@@ -24,4 +24,15 @@ public class SpeedConverter {
         double costPerTrip = (totalMiles / mpg) * costOfGas;
         System.out.println("Cost for this trip is $" + costPerTrip);
     }
+
+    public static void negativeNumbers(int num) {
+        if (num < 0) {
+            System.out.println(num + " is a negative number");
+        } else {
+            if (num >= 0) {
+                System.out.println(num + " is a positive number");
+            }
+        }
+    }
+
 }

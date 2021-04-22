@@ -9,6 +9,7 @@ public class Main {
 
         SpeedConverter.milesPerGallon(25, 1900, 2.5);
 
-
+        SpeedConverter.negativeNumbers(4);
+        SpeedConverter.negativeNumbers(-16);
     }
 }
