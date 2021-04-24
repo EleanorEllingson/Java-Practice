@@ -11,5 +11,6 @@ public class Main {
 
         SpeedConverter.negativeNumbers(4);
         SpeedConverter.negativeNumbers(-16);
+        MegaBytesConverter.printMegaBytesAndKiloBytes(-100);
     }
 }
