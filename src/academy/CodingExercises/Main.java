@@ -13,6 +13,6 @@ public class Main {
         SpeedConverter.negativeNumbers(-16);
         MegaBytesConverter.printMegaBytesAndKiloBytes(-100);
 
-        System.out.println(BarkingDog.shouldWakeUp(false, 14));
+        BarkingDog.shouldWakeUp(false, 14);
     }
 }
