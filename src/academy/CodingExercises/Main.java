@@ -7,10 +7,7 @@ public class Main {
 
         SpeedConverter.printConversion(10.5);
 
-        SpeedConverter.milesPerGallon(25, 1900, 2.5);
 
-        SpeedConverter.negativeNumbers(4);
-        SpeedConverter.negativeNumbers(-16);
         MegaBytesConverter.printMegaBytesAndKiloBytes(-100);
 
         BarkingDog.shouldWakeUp(false, 14);
