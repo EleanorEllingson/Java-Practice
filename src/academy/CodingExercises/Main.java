@@ -15,6 +15,8 @@ public class Main {
 //
 //        System.out.println(LeapYear.isLeapYear(2000));
 
-        System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(5.7, -5.7));
+//        System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(5.7, -5.7));
+
+        System.out.println(EqualSumChecker.hasEqualSum(1,-5,6));
     }
 }
