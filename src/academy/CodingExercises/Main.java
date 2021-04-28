@@ -17,6 +17,10 @@ public class Main {
 
 //        System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(5.7, -5.7));
 
-        System.out.println(EqualSumChecker.hasEqualSum(1,-5,6));
+//        System.out.println(EqualSumChecker.hasEqualSum(1,-5,6));
+
+        System.out.println(TeenNumberChecker.hasTeen(14,12,15));
+
+        System.out.println(TeenNumberChecker.isTeen(4));
     }
 }
