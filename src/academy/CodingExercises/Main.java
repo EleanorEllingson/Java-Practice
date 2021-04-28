@@ -13,6 +13,6 @@ public class Main {
         BarkingDog.shouldWakeUp(false, 14);
 
 
-        System.out.println(LeapYear.isLeapYear(1800));
+        System.out.println(LeapYear.isLeapYear(2000));
     }
 }
