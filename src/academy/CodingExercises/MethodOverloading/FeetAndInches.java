@@ -24,7 +24,7 @@ public class FeetAndInches {
 
         double feet = (int) inches / 12;
          double remainingInches = (int) inches % 12;
-        System.out.println(inches + " inches is equal to " + feet + remainingInches + " inches");
+        System.out.println(inches + " inches is equal to " + feet + " feet and " + remainingInches + " inches");
         return calcFeetAndInchesToCentimeters(feet, inches);
     }
 
