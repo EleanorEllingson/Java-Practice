@@ -7,5 +7,7 @@ public class Main {
 
         System.out.println(DurationString.getDurationString(1005,40));
         System.out.println(DurationString.getDurationString(4000));
+
+        System.out.println("Area = " + AreaCalculator.area(4));
     }
 }
