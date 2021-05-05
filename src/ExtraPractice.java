@@ -17,10 +17,20 @@ public class ExtraPractice {
         }
     }
 
+    public static void evenNumbers(int num){
+        if(num % 2 == 0){
+            System.out.println(num + " is an even number");
+        }else {
+            System.out.println(num + " is an odd number");
+        }
+    }
+
     public static void main(String[] args) {
         milesPerGallon(25, 1900, 2.5);
 
         negativeNumbers(4);
         negativeNumbers(-16);
+        evenNumbers(-31);
+
     }
 }

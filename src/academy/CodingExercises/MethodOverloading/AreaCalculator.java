@@ -8,5 +8,12 @@ public class AreaCalculator {
         }
         return areaCircle;
     }
+    public static double area(double x, double y){
+        double areaRectangle = x * y;
+        if (x < 0 || y < 0){
+            areaRectangle = -1.0;
+        }
+        return areaRectangle;
+    }
 
 }
