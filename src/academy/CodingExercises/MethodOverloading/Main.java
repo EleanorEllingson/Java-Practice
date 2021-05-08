@@ -14,5 +14,7 @@ public class Main {
         System.out.println("Area of Rectangle = " + AreaCalculator.area(-1,4));
 
         YearsAndDays.printYearsAndDays(525600);
+
+        IntEqualityPrinter.printEqual(7, -2, 7);
     }
 }
