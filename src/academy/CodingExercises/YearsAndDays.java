@@ -14,7 +14,7 @@ public class YearsAndDays {
         } else{
 
 
-            System.out.println(minutes + " min = " + years + (" y and  " + days + (" d")));
+            System.out.println(minutes + " min = " + years + (" y and " + days + (" d")));
         }
     }
 }
