@@ -16,5 +16,6 @@ public class Main {
         YearsAndDays.printYearsAndDays(525600);
 
         IntEqualityPrinter.printEqual(7, -2, 7);
+        System.out.println(PlayingCat.isCatPlaying(false, 44));
     }
 }
