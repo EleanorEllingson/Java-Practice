@@ -1,5 +1,7 @@
 package academy.SwitchStatements;
 
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args){
 //        int value = 3;
@@ -49,5 +51,28 @@ public class Main {
 
 
         }
+        String month = "JUNE";
+               switch (month.toLowerCase()){
+                   case "january":
+                       System.out.println("Jan");
+                       break;
+                   case "february":
+                       System.out.println("Feb");
+                       break;
+                   case "march":
+                       System.out.println("Mar");
+                       break;
+                   case "april":
+                       System.out.println("Apr");
+                       break;
+                   case "may":
+                       System.out.println("May");
+                       break;
+                   case "june":
+                       System.out.println("Jun");
+                       break;
+                   default:
+                       System.out.println("Not sure");
+               }
     }
 }
