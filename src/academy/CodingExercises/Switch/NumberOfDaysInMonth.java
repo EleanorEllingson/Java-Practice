@@ -19,4 +19,62 @@ public class NumberOfDaysInMonth {
         }
         return leapYear;
     }
+    public static int getDaysInMonth(int month, int year, boolean leapYear){
+        int dayCount = 0;
+        if(month < 1 || month > 12){
+            dayCount = -1;
+        }else if (year < 1 || year > 9999){
+            dayCount = -1;
+        }
+        
+        switch (month){
+            case 1:
+                dayCount = 31;
+                break;
+            case 2:
+                if (leapYear){
+                dayCount = 29;
+                }else {
+                    dayCount = 28;
+                }
+                break;
+            case 3:
+                dayCount = 31;
+                break;
+            case 4:
+                dayCount = 30;
+                break;
+            case 5:
+                dayCount = 31;
+                break;
+            case 6:
+                dayCount = 30;
+                break;
+            case 7:
+                dayCount = 31;
+                break;
+            case 8:
+                dayCount = 31;
+                break;
+            case 9:
+                dayCount = 30;
+                break;
+            case 10:
+                dayCount = 31;
+                break;
+            case 11:
+                dayCount = 30;
+                break;
+            case 12:
+                dayCount = 31;
+                break;
+            default:
+                break;
+
+
+
+        }
+        return dayCount;
+
+    }
 }
