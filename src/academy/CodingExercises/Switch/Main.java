@@ -14,7 +14,8 @@ public class Main {
 //        NumberInWord.printNumberInWord(9);
 //        NumberInWord.printNumberInWord(10);
 //        NumberInWord.printNumberInWord(-1);
-        NumberOfDaysInMonth.isLeapYear(2020);
-        System.out.println(NumberOfDaysInMonth.getDaysInMonth(12));
+
+
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 10000));
     }
 }
