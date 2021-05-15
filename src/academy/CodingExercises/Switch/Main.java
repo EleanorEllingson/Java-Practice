@@ -15,7 +15,9 @@ public class Main {
 //        NumberInWord.printNumberInWord(10);
 //        NumberInWord.printNumberInWord(-1);
 
-
-        System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 10000));
+        int month = 2;
+        int year = 2025;
+        boolean leapYear = NumberOfDaysInMonth.isLeapYear(year);
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(month, year, leapYear));
     }
 }

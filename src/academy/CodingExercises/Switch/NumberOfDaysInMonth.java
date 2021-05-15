@@ -19,8 +19,8 @@ public class NumberOfDaysInMonth {
         }
         return leapYear;
     }
-    public static int getDaysInMonth(int month, int year){
-        boolean leapYear = NumberOfDaysInMonth.isLeapYear(year);
+    public static int getDaysInMonth(int month, int year, boolean leapYear){
+//        boolean leapYear = NumberOfDaysInMonth.isLeapYear(year);
         int dayCount = 0;
         if(month < 1 || month > 12){
             return -1;
