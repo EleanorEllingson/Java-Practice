@@ -16,10 +16,13 @@ public class CalculateInterest {
             if(isPrime(i)){
                 System.out.println(i);
                 count++;
-                    if(count >= 3){
+                    if(count >= 8){
                         break;
                     }
             }
+        }
+        for (int number = 100; number < 200; number += 10){
+            System.out.println("number = " + number);
         }
 
     }
