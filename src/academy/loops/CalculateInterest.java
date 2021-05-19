@@ -11,19 +11,35 @@ public class CalculateInterest {
 //        for (int i = 8; i > 1; i--) {
 //            System.out.println("10,000 at " + i + "% interest = " + calculateInterest(10000.0, i));
 //        }
+//        int count = 0;
+//        for (int i = 20; i < 50; i++){
+//            if(isPrime(i)){
+//                System.out.println(i);
+//                count++;
+//                    if(count >= 8){
+//                        break;
+//                    }
+//            }
+//        }
+//        for (int number = 100; number < 200; number += 10){
+//            System.out.println("number = " + number);
+//        }
         int count = 0;
-        for (int i = 20; i < 50; i++){
-            if(isPrime(i)){
-                System.out.println(i);
+        int sum = 0;
+        for(int i = 1; i <= 1000; i++){
+            if(i % 3 == 0 && i % 5 == 0){
+                System.out.println(i + " is divisable by 3 and 5");
+                sum = i + sum;
                 count++;
-                    if(count >= 8){
+                    if(count == 5){
                         break;
-                    }
-            }
+
+                     }
+
+
+                }
         }
-        for (int number = 100; number < 200; number += 10){
-            System.out.println("number = " + number);
-        }
+        System.out.println(sum);
 
     }
 
