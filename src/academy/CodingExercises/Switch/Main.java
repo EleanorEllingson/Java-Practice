@@ -1,5 +1,7 @@
 package academy.CodingExercises.Switch;
 
+import academy.CodingExercises.Loops.SumOddRange;
+
 public class Main {
     public static void main(String[] args) {
 //        NumberInWord.printNumberInWord(0);
@@ -19,5 +21,7 @@ public class Main {
         int year = 2025;
         boolean leapYear = NumberOfDaysInMonth.isLeapYear(year);
         System.out.println(NumberOfDaysInMonth.getDaysInMonth(month, year, leapYear));
+        System.out.println(SumOddRange.sumOdd(100, 1000));
+
     }
 }
