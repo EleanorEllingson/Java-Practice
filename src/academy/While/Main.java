@@ -25,13 +25,15 @@ public class Main {
 
             if(!isEvenNumber(num)) {
                 count++;
-                if(count == 6){
+                System.out.println(num + " is an even number");
+                if(count == 5){
                     break;
                 }else {
                     continue;
                 }
             }
-            System.out.println(num + " is an even number");
+
+
         }
         System.out.println("Total even numbers found = " + count);
 
