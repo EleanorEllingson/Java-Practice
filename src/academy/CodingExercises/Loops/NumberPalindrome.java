@@ -1,13 +1,21 @@
 package academy.CodingExercises.Loops;
 
 public class NumberPalindrome {
-    public static boolean isPalindrome(int number){
+    public static boolean isPalindrome(int number) {
+        int num = number;
         int reverse = 0;
-        while(number >= 0){
-            int lastDigit = number % 10;
-            reverse ++;
-            reverse = reverse * 10;
-            int  nextDigit = lastDigit + reverse;
+        int remainder;
+        while (num != 0) {
+            remainder = num % 10;
+            reverse = reverse * 10 + remainder;
+            num /= 10;
+
+        }
+        if (number == reverse) {
+            return true;
+
+        } else {
+            return false;
         }
     }
 }
