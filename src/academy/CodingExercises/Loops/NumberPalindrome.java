@@ -7,8 +7,11 @@ public class NumberPalindrome {
         int remainder;
         while (num != 0) {
             remainder = num % 10;
+
             reverse = reverse * 10 + remainder;
+
             num /= 10;
+
 
         }
         if (number == reverse) {
