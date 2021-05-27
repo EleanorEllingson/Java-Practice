@@ -5,6 +5,7 @@ public class Main {
         System.out.println(DigitSumChallenge.sumDigits(777777777));
         System.out.println(NumberPalindrome.isPalindrome(4114));
         System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(5));
+        System.out.println(EvenDigitSum.getEvenDigitSum(324746));
 
     }
 }
