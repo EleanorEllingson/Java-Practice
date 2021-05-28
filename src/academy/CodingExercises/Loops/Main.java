@@ -9,6 +9,7 @@ public class Main {
         System.out.println(SharedDigit.hasSharedDigit(10, 2));
         System.out.println(LastDigitChecker.hasSameLastDigit(50, 561, 481));
         System.out.println(LastDigitChecker.isValid(50));
+        System.out.println("GreatestCommonDivisor " + GreatestCommonDivisor.getGreatestCommonDivisor(100, 60));
 
     }
 }
