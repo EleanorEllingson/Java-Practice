@@ -6,6 +6,7 @@ public class Main {
         System.out.println(NumberPalindrome.isPalindrome(4114));
         System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(5));
         System.out.println(EvenDigitSum.getEvenDigitSum(324746));
+        System.out.println(SharedDigit.hasSharedDigit(10, 2));
 
     }
 }
