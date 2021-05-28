@@ -7,6 +7,8 @@ public class Main {
         System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(5));
         System.out.println(EvenDigitSum.getEvenDigitSum(324746));
         System.out.println(SharedDigit.hasSharedDigit(10, 2));
+        System.out.println(LastDigitChecker.hasSameLastDigit(50, 561, 481));
+        System.out.println(LastDigitChecker.isValid(50));
 
     }
 }
