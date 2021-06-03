@@ -12,6 +12,7 @@ public class Main {
 //        System.out.println("GreatestCommonDivisor " + GreatestCommonDivisor.getGreatestCommonDivisor(100, 60));
         FactorPrinter.printFactors(-1);
         System.out.println(PerfectNumber.isPerfectNumber(28));
+        NumberToWords.numberToWords(45872);
 
     }
 }
