@@ -5,7 +5,8 @@ public class NumberToWords {
         if(number < 0){
             System.out.println("Invalid Value");
         }
-        int newNum = number;
+
+        int newNum = reverse(number);
         int oneNum;
         while (newNum > 0){
             oneNum = newNum % 10;
@@ -46,4 +47,17 @@ public class NumberToWords {
             newNum = newNum / 10;
         }
     }
+
+    public static int reverse(int number){
+        int num = number;
+        int reverse = 0;
+        int remainder;
+        while (num != 0) {
+            remainder = num % 10;
+            reverse = reverse * 10 + remainder;
+            num /= 10;
+        }
+        return reverse;
+    }
+
 }
