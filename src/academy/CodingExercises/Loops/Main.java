@@ -13,6 +13,7 @@ public class Main {
         FactorPrinter.printFactors(-1);
         System.out.println(PerfectNumber.isPerfectNumber(28));
         NumberToWords.numberToWords(11);
+        System.out.println(FlourPacker.canPack(10,12,34));
 
 
 
