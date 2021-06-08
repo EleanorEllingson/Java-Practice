@@ -10,13 +10,10 @@ public class Main {
 //        System.out.println(LastDigitChecker.hasSameLastDigit(50, 561, 481));
 //        System.out.println(LastDigitChecker.isValid(50));
 //        System.out.println("GreatestCommonDivisor " + GreatestCommonDivisor.getGreatestCommonDivisor(100, 60));
-        FactorPrinter.printFactors(-1);
-        System.out.println(PerfectNumber.isPerfectNumber(28));
-        NumberToWords.numberToWords(11);
-        System.out.println(FlourPacker.canPack(10,12,34));
-
-
-
-
+//        FactorPrinter.printFactors(-1);
+//        System.out.println(PerfectNumber.isPerfectNumber(28));
+//        NumberToWords.numberToWords(11);
+//        System.out.println(FlourPacker.canPack(10,12,34));
+        System.out.println("Largest Prime Number = " + LargestPrime.getLargestPrime(5876));
     }
 }
