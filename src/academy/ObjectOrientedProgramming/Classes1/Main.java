@@ -7,5 +7,13 @@ public class Main {
         porsche.setModel("911");
         System.out.println("Model is " + porsche.getModel());
 
+BankAccount bobsAccount = new BankAccount();
+bobsAccount.withdrawal(100);
+bobsAccount.depositFunds(546);
+bobsAccount.withdrawal(340);
+
+
+
     }
+
 }
