@@ -5,7 +5,9 @@ public class Person {
     private String LastName;
     private int age;
 
-
+    public boolean isTeen(){
+        return age < 20 && age > 12;
+    }
 
     public String getFirstName() {
         return firstName;
