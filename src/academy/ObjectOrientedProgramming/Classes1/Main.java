@@ -12,7 +12,12 @@ public class Main {
 //bobsAccount.depositFunds(546);
 //bobsAccount.withdrawal(340);
 
-
+        Person person = new Person();
+        person.setLastName("Smith");
+        person.setFirstName("John");
+        person.setAge(-5);
+        System.out.println("This persons name is " + person.getFullName());
+        System.out.println("This person's age is " + person.getAge());
 
     }
 
