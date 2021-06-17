@@ -25,12 +25,19 @@ public class ExtraPractice {
         }
     }
 
+    public static boolean numbersEqual(int num1, int num2){
+        if(num1 == num2){
+            return true;
+        }else return false;
+    }
+
     public static void main(String[] args) {
         milesPerGallon(25, 1900, 2.5);
 
         negativeNumbers(4);
         negativeNumbers(-16);
         evenNumbers(-31);
+        System.out.println(numbersEqual(4, 6));
 
     }
 }
