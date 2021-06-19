@@ -5,6 +5,10 @@ public class SimpleCalculator {
     private double firstNumber;
     private double secondNumber;
 
+    public SimpleCalculator(double firstNumber, double secondNumber) {
+        this.firstNumber = firstNumber;
+        this.secondNumber = secondNumber;
+    }
 
     public double getFirstNumber() {
         return firstNumber;
