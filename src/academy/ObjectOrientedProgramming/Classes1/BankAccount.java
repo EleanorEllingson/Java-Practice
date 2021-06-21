@@ -18,6 +18,13 @@ public BankAccount(int accountNumber,double balance, String customerName, String
     this.phoneNumber = phoneNumber;
 }
 
+    public BankAccount(String customerName, String email, String phoneNumber) {
+        this(99999,100.55, customerName, email, phoneNumber);
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
     public int getAccountNumber() {
         return accountNumber;
     }
