@@ -30,8 +30,10 @@ public class Main {
         VipCustomer person2 = new VipCustomer("Bob", 25000);
         System.out.println(person2.getName());
 
-        VipCustomer person3 = new VipCustomer("Tim", 100, "tim@email.com");
-        System.out.println(person3.getName());
+        BankAccount timsAccount = new BankAccount("Tim", "tim@email.com", "12345");
+        System.out.println(timsAccount.getCustomerName() + " name " + timsAccount.getCustomerName());
+        System.out.println("Current balance is " + timsAccount.getBalance());
+        timsAccount.withdrawal(100.55);
 
     }
 
