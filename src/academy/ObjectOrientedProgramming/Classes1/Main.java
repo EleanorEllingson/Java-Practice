@@ -35,8 +35,10 @@ public class Main {
 //        System.out.println("Current balance is " + timsAccount.getBalance());
 //        timsAccount.withdrawal(100.55);
 
-        Wall wall = new Wall(5, 4);
+        Wall wall = new Wall(-5, 4);
         System.out.println(wall.getArea());
+        System.out.println("Height = " + wall.getHeight());
+        System.out.println("Width = " + wall.getWidth());
 
     }
 
