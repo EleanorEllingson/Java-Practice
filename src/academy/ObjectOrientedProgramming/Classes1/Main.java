@@ -24,16 +24,19 @@ public class Main {
 //        person.setAge(-5);
 //        System.out.println("This persons name is " + person.getFullName());
 //        System.out.println("This person's age is " + person.getAge());
-        VipCustomer customer1 = new VipCustomer();
-        System.out.println(customer1.getName());
+//        VipCustomer customer1 = new VipCustomer();
+//        System.out.println(customer1.getName());
+//
+//        VipCustomer person2 = new VipCustomer("Bob", 25000);
+//        System.out.println(person2.getName());
+//
+//        BankAccount timsAccount = new BankAccount("Tim", "tim@email.com", "12345");
+//        System.out.println(timsAccount.getCustomerName() + " name " + timsAccount.getCustomerName());
+//        System.out.println("Current balance is " + timsAccount.getBalance());
+//        timsAccount.withdrawal(100.55);
 
-        VipCustomer person2 = new VipCustomer("Bob", 25000);
-        System.out.println(person2.getName());
-
-        BankAccount timsAccount = new BankAccount("Tim", "tim@email.com", "12345");
-        System.out.println(timsAccount.getCustomerName() + " name " + timsAccount.getCustomerName());
-        System.out.println("Current balance is " + timsAccount.getBalance());
-        timsAccount.withdrawal(100.55);
+        Wall wall = new Wall(5, 4);
+        System.out.println(wall.getArea());
 
     }
 
