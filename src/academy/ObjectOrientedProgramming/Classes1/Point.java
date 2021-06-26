@@ -27,4 +27,14 @@ public class Point {
     public void setY(int y) {
         this.y = y;
     }
+
+    public double distance (){
+        return x - y;
+    }
+    public double distance (int x, int y){
+        return x - y;
+    }
+    public double distance(int z){
+
+    }
 }
