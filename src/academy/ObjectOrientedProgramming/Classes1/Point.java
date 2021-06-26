@@ -35,6 +35,6 @@ public class Point {
         return x - y;
     }
     public double distance(int z){
-
+        return z;
     }
 }
