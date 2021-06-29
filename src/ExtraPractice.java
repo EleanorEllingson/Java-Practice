@@ -11,9 +11,7 @@ public class ExtraPractice {
         if (num < 0) {
             System.out.println(num + " is a negative number");
         } else {
-            if (num >= 0) {
-                System.out.println(num + " is a positive number");
-            }
+            System.out.println(num + " is a positive number");
         }
     }
 
